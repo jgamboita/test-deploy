@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>co.gov.educacionbogota</groupId>
 	<artifactId>evaluacion-docente</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>evaluacion-docente</name>
 	<description>Evaluacion Docente Root project for Spring Boot</description>
 	<packaging>pom</packaging>
