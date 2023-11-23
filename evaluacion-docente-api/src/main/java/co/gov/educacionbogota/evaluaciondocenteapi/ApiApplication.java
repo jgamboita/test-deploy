@@ -1,10 +1,11 @@
 package co.gov.educacionbogota.evaluaciondocenteapi;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import co.gov.educacionbogota.evaluaciondocenteapi.infra.in.HealthAdapter;
-import lombok.extern.slf4j.Slf4j;
+
 
 @SpringBootApplication
 @Slf4j

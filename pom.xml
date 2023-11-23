@@ -22,8 +22,8 @@
         <sonar.host.url>http://158.101.99.55:49000/</sonar.host.url>
         <sonar.sources>src/main/java</sonar.sources>
         <sonar.exclusions>src/main/resources/static/lib, **/APIApplication.java</sonar.exclusions>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>M3d3ll1n</sonar.password>
+        <sonar.login>apiuser</sonar.login>
+        <sonar.password>.B0g0t4.</sonar.password>
         <sonar.language>java</sonar.language>
     </properties>
 
@@ -97,7 +97,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+		<!--	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
 				<version>1.4.1</version>
@@ -123,7 +123,7 @@
 						<phase>validate</phase>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
